@@ -1,0 +1,21 @@
+_id: req_3a47e5b11b6a486199bbdf6746145490
+type: Request
+parentId: fld_a4c055f4f16b4264812ffe2e34e6ab9d
+modified: 1689580647265
+created: 1681402128841
+url: "{{ _.BASE_URL }}/index"
+name: User Group
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1681402128841
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

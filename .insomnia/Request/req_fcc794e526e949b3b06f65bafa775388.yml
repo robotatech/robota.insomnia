@@ -1,0 +1,33 @@
+_id: req_fcc794e526e949b3b06f65bafa775388
+type: Request
+parentId: fld_e56467f66f7049daae7a724d4334c0f5
+modified: 1689688028573
+created: 1689687460087
+url: "{{ _.BASE_URL }}/tools/refresh-rate"
+name: Refresh rate
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_2a4bba4af2cd4ca68dc7313de021614a
+    name: from
+    value: "18924718923"
+    description: ""
+  - id: pair_da7bc79202354bbea94a6c91d0b33d0f
+    name: to
+    value: "9238492837"
+    description: ""
+  - id: pair_c015f2ed4039476f84f3761c8fe97641
+    name: hotel_id
+    value: 29349023lkashs
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1689687460087
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

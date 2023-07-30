@@ -1,0 +1,32 @@
+_id: req_4cf621d2067747ea9eb198f0534ac2c7
+type: Request
+parentId: fld_3d8047a9c7cb4f02bd845689fa0971eb
+modified: 1685151366469
+created: 1685151350270
+url: "{{ _.BASE_URL }}/account/preference/ota"
+name: My OTA
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ota_id": []
+    }
+parameters: []
+headers:
+  - id: pair_ada7872663a64f7fb5c27d36ac1e0e03
+    name: Authorization
+    value: Bearer {{ _.JWT_TOKEN }}
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684986445702.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

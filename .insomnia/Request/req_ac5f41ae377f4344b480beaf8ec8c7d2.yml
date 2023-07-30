@@ -1,0 +1,21 @@
+_id: req_ac5f41ae377f4344b480beaf8ec8c7d2
+type: Request
+parentId: fld_a4c055f4f16b4264812ffe2e34e6ab9d
+modified: 1689581044553
+created: 1681402116402
+url: "{{ _.BASE_URL }}/user/permission"
+name: User Permissions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1681402116402
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

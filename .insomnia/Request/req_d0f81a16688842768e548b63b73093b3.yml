@@ -1,0 +1,25 @@
+_id: req_d0f81a16688842768e548b63b73093b3
+type: Request
+parentId: fld_e56467f66f7049daae7a724d4334c0f5
+modified: 1689687910549
+created: 1689687697666
+url: "{{ _.BASE_URL }}/tools/hotels"
+name: Find Hotel
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_35326f07c73e4fe1a8ff3e6278a26c12
+    name: hotel_name
+    value: acadiaasdasdasd
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1689687697666
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

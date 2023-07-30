@@ -1,0 +1,25 @@
+_id: req_880f67c82d9f4ab29c69fb76cdfad3fb
+type: Request
+parentId: fld_7a8f36b2a7324df0947e6767b4ab72e7
+modified: 1689657484741
+created: 1689657434628
+url: "{{ _.BASE_URL }}/auth/myaccount"
+name: myaccount
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_6b4e976759c14da48e01f3cf243b3261
+    name: Authorization
+    value: Bearer {{ _.JWT_TOKEN }}
+    description: ""
+authentication: {}
+metaSortKey: -1689657434628
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

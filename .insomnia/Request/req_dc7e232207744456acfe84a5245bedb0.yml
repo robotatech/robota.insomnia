@@ -1,0 +1,50 @@
+_id: req_dc7e232207744456acfe84a5245bedb0
+type: Request
+parentId: fld_3d8047a9c7cb4f02bd845689fa0971eb
+modified: 1685150388204
+created: 1684994643702
+url: "{{ _.BASE_URL }}/account/preference/hotel"
+name: My Hotels
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"official-name": "My Hotel",
+    	"location": [12.2345345,44.2343453565],
+    	"info": {
+    		"hotel_profile": ""
+    	},
+    	"hotels": [
+    		{
+    			"hotel_name": "My Hotel",
+    			"source": "traveloka",
+    			"url": "https://traveloka.com/my-hotel-traveloka",
+    			"_id": "my-hotel-traveloka-id"
+    		},
+    		{
+    			"hotel_name": "My Hotel of Jakarta",
+    			"source": "tiket",
+    			"url": "https://tiket.com/my-hotel-tiket",
+    			"_id": "my-hotel-tiket-id"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - id: pair_ada7872663a64f7fb5c27d36ac1e0e03
+    name: Authorization
+    value: Bearer {{ _.JWT_TOKEN }}
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684992121194.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

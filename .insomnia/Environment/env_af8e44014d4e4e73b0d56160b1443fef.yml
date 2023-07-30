@@ -1,0 +1,29 @@
+_id: env_af8e44014d4e4e73b0d56160b1443fef
+type: Environment
+parentId: env_699d5ae69b6650de2015f6dd34c3f0791bcfb0d4
+modified: 1689657103268
+created: 1681402190535
+name: localhost
+data:
+  protocol: http
+  host: 0.0.0.0
+  port: "1234"
+  path: v1.1
+  users:
+    - username: username
+      email: email
+      password: password
+dataPropertyOrder:
+  "&":
+    - protocol
+    - host
+    - port
+    - path
+    - users
+  "&~|users~|0":
+    - username
+    - email
+    - password
+color: "#f50000"
+isPrivate: false
+metaSortKey: 1681402190535

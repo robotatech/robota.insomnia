@@ -1,0 +1,25 @@
+_id: req_475935dcaaf448bf9668013538c46ac4
+type: Request
+parentId: fld_3d8047a9c7cb4f02bd845689fa0971eb
+modified: 1685150396042
+created: 1685150378622
+url: "{{ _.BASE_URL }}/account/preference/hotel"
+name: My Hotels
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ada7872663a64f7fb5c27d36ac1e0e03
+    name: Authorization
+    value: Bearer {{ _.JWT_TOKEN }}
+    description: ""
+authentication: {}
+metaSortKey: -1684992121244.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

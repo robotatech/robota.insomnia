@@ -1,0 +1,27 @@
+_id: env_ebf89b8057654ef59ce97e4cbd9bb584
+type: Environment
+parentId: env_699d5ae69b6650de2015f6dd34c3f0791bcfb0d4
+modified: 1681402369136
+created: 1681402184466
+name: production
+data:
+  protocol: https
+  host: api.robota.live
+  port: "80"
+  users:
+    - username: username
+      email: email
+      password: password
+dataPropertyOrder:
+  "&":
+    - protocol
+    - host
+    - port
+    - users
+  "&~|users~|0":
+    - username
+    - email
+    - password
+color: "#00c756"
+isPrivate: false
+metaSortKey: 1681402184466
