@@ -1,28 +1,21 @@
-_id: req_4cf621d2067747ea9eb198f0534ac2c7
+_id: req_40bba604b3cb4c9c98dd8fd97ceb3c76
 type: Request
 parentId: fld_3d8047a9c7cb4f02bd845689fa0971eb
-modified: 1690911831978
-created: 1685151350270
-url: "{{ _.BASE_URL }}/account/preference/ota"
-name: my ota
+modified: 1690911805039
+created: 1690911790226
+url: "{{ _.BASE_URL }}/account/preference/hotel/123"
+name: my hotel _id
 description: ""
-method: POST
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	"ota_id": []
-    }
+method: GET
+body: {}
 parameters: []
 headers:
   - id: pair_ada7872663a64f7fb5c27d36ac1e0e03
     name: Authorization
     value: Bearer {{ _.JWT_TOKEN }}
     description: ""
-  - name: Content-Type
-    value: application/json
 authentication: {}
-metaSortKey: -1684986445702.625
+metaSortKey: -1684992121219.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

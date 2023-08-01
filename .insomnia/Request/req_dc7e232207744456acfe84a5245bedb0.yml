@@ -1,10 +1,10 @@
 _id: req_dc7e232207744456acfe84a5245bedb0
 type: Request
 parentId: fld_3d8047a9c7cb4f02bd845689fa0971eb
-modified: 1685150388204
+modified: 1690911813142
 created: 1684994643702
 url: "{{ _.BASE_URL }}/account/preference/hotel"
-name: My Hotels
+name: my hotel
 description: ""
 method: POST
 body:
@@ -40,7 +40,7 @@ headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1684992121194.5
+metaSortKey: -1684990229376.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
