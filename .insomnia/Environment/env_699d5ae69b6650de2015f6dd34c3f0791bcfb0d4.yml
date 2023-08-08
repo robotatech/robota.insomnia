@@ -1,11 +1,11 @@
 _id: env_699d5ae69b6650de2015f6dd34c3f0791bcfb0d4
 type: Environment
 parentId: wrk_93d8181869b74618a9278c5720acd7d1
-modified: 1684983477122
+modified: 1691404054501
 created: 1681402006946
 name: Base Environment
 data:
-  BASE_URL: "{{ _.protocol }}://{{ _.host }}:{{ _.port }}/{{ path }}"
+  BASE_URL: "{{ _.protocol }}://{{ _.host }}/{{ path }}"
   JWT_TOKEN: "{% response 'body', 'req_5b9357ea3e4d41aabf841444dc2976ee',
     'b64::JC5kYXRhLmFjY2Vzc190b2tlbg==::46b', 'always', 60 %}"
 dataPropertyOrder:

@@ -1,7 +1,7 @@
 _id: req_4cf621d2067747ea9eb198f0534ac2c7
 type: Request
 parentId: fld_3d8047a9c7cb4f02bd845689fa0971eb
-modified: 1690911831978
+modified: 1690915012542
 created: 1685151350270
 url: "{{ _.BASE_URL }}/account/preference/ota"
 name: my ota
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"ota_id": []
+    	"ota_id": 6
     }
 parameters: []
 headers:

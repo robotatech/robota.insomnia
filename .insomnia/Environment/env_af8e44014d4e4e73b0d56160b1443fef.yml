@@ -1,13 +1,12 @@
 _id: env_af8e44014d4e4e73b0d56160b1443fef
 type: Environment
 parentId: env_699d5ae69b6650de2015f6dd34c3f0791bcfb0d4
-modified: 1689657103268
+modified: 1691404322682
 created: 1681402190535
 name: localhost
 data:
   protocol: http
-  host: 0.0.0.0
-  port: "1234"
+  host: 0.0.0.0:1234
   path: v1.1
   users:
     - username: username
@@ -17,7 +16,6 @@ dataPropertyOrder:
   "&":
     - protocol
     - host
-    - port
     - path
     - users
   "&~|users~|0":
