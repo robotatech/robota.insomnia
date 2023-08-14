@@ -1,0 +1,29 @@
+_id: req_899155dc50074d83bac1d779202f8a9e
+type: Request
+parentId: fld_3d8047a9c7cb4f02bd845689fa0971eb
+modified: 1690915086484
+created: 1690915070277
+url: "{{ _.BASE_URL }}/account/preference/ota/6"
+name: my ota :id
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_ada7872663a64f7fb5c27d36ac1e0e03
+    name: Authorization
+    value: Bearer {{ _.JWT_TOKEN }}
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684900629593.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,25 +1,26 @@
-_id: req_5b9357ea3e4d41aabf841444dc2976ee
+_id: req_5b8553382e3e44c4898699ee98f2f5d2
 type: Request
 parentId: fld_7a8f36b2a7324df0947e6767b4ab72e7
-modified: 1691940808166
-created: 1681402090023
-url: "{{ _.BASE_URL }}/auth/login"
-name: Login
+modified: 1692039322928
+created: 1692038689664
+url: "{{ _.BASE_URL }}/auth/refresh-token"
+name: Refresh JWT
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"email": "user1@email.com",
-    	"password": "password"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_1806159fe9234367bd462881fdca7104
+  - id: pair_f8e666615a1649828e17c148d2cc8eba
+    name: Authorization
+    value: Bearer {{ _.JWT_REFRESH_TOKEN }}
+    description: ""
 authentication: {}
-metaSortKey: -1681402090024
+metaSortKey: -1681374589377.125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

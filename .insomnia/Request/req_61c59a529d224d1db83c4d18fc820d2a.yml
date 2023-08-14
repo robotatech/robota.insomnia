@@ -1,7 +1,7 @@
 _id: req_61c59a529d224d1db83c4d18fc820d2a
 type: Request
 parentId: fld_7a8f36b2a7324df0947e6767b4ab72e7
-modified: 1691490858831
+modified: 1691941453676
 created: 1681658788762
 url: "{{ _.BASE_URL }}/auth/register"
 name: Register
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "user3@email.com",
+    	"email": "sugengdcahyo@gmail.com",
     	"password": "password",
     	"password_confirm": "password"
     }

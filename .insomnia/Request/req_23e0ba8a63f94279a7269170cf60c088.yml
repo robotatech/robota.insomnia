@@ -1,0 +1,30 @@
+_id: req_23e0ba8a63f94279a7269170cf60c088
+type: Request
+parentId: fld_340e501a19084036bb4b9408d729f3a4
+modified: 1690913980428
+created: 1690913975294
+url: "{{ _.BASE_URL }}/systems/storage"
+name: Storage Active
+description: This is robota system collection
+method: GET
+body: {}
+parameters:
+  - id: pair_1f91c3cc6aab4a669886aa9f84a818fd
+    name: search
+    value: trave
+    description: ""
+headers:
+  - id: pair_4fbee6a82ff14b2fb7c6b3117e0afdf5
+    name: Authorization
+    value: Bearer {{ _.JWT_TOKEN }}
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1690300227368
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
