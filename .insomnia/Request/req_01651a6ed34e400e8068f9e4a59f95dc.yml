@@ -1,25 +1,26 @@
-_id: req_5b9357ea3e4d41aabf841444dc2976ee
+_id: req_01651a6ed34e400e8068f9e4a59f95dc
 type: Request
-parentId: fld_7a8f36b2a7324df0947e6767b4ab72e7
-modified: 1692692150300
-created: 1681402090023
-url: "{{ _.BASE_URL }}/auth/login"
-name: Login
+parentId: wrk_93d8181869b74618a9278c5720acd7d1
+modified: 1692695321387
+created: 1692695261241
+url: https://crawler.robota.datains.id/v1/services/searchHotel
+name: Search Unit OTA
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "user2@email.com",
-    	"password": "password"
+    	"hotel_name": "Horison Ciledug",
+    	"ota": ["traveloka", "agoda", "pegipegi"],
+    	"sender": "user2"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1681402090024
+metaSortKey: -1692639514125.0625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

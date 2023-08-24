@@ -1,0 +1,38 @@
+_id: req_73d199cde9c84763a80dd102c49043f2
+type: Request
+parentId: fld_cd55744b4e7d4616a9c2934f808cd473
+modified: 1692557950042
+created: 1692525718229
+url: "{{ _.BASE_URL }}/account/bridging-status"
+name: Bridging Status
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "user1@email.com",
+    	"password": "password"
+    }
+parameters:
+  - id: pair_c60b7728ffb74b019a8a021d280cd42b
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_16de21d6432f4594accf98fb6bd90f10
+  - id: pair_c15e8929775646d398c739c6e79fb3dd
+    name: Authorization
+    value: Bearer {{ _.JWT_TOKEN }}
+    description: ""
+authentication: {}
+metaSortKey: -1692525702871
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

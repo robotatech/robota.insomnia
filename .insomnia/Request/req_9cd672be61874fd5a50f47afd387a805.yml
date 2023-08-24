@@ -1,25 +1,26 @@
-_id: req_5b9357ea3e4d41aabf841444dc2976ee
+_id: req_9cd672be61874fd5a50f47afd387a805
 type: Request
 parentId: fld_7a8f36b2a7324df0947e6767b4ab72e7
-modified: 1692692150300
-created: 1681402090023
-url: "{{ _.BASE_URL }}/auth/login"
-name: Login
+modified: 1692868704745
+created: 1692868436803
+url: "{{ _.BASE_URL }}/auth/activate-account"
+name: Activate Account
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"email": "user2@email.com",
-    	"password": "password"
-    }
-parameters: []
+  text: ""
+parameters:
+  - id: pair_481732ef46b24ec38f15cdf8ba14db48
+    name: token
+    value: sugengdcahyogmail.com
+    description: ""
+    disabled: false
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1681402090024
+metaSortKey: -1681388339700.5625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
