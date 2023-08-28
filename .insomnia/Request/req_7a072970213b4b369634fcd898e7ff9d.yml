@@ -1,7 +1,7 @@
 _id: req_7a072970213b4b369634fcd898e7ff9d
 type: Request
 parentId: fld_340e501a19084036bb4b9408d729f3a4
-modified: 1692557451060
+modified: 1693199452963
 created: 1690912757070
 url: "{{ _.BASE_URL }}/systems/otas"
 name: OTA Collections
@@ -19,8 +19,10 @@ headers:
     name: Authorization
     value: Bearer {{ _.JWT_TOKEN }}
     description: ""
-    disabled: false
-authentication: {}
+    disabled: true
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
 metaSortKey: -1690912757070
 isPrivate: false
 settingStoreCookies: true

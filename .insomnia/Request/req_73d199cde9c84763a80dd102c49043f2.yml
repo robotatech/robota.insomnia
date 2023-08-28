@@ -1,7 +1,7 @@
 _id: req_73d199cde9c84763a80dd102c49043f2
 type: Request
 parentId: fld_cd55744b4e7d4616a9c2934f808cd473
-modified: 1692557950042
+modified: 1692993543121
 created: 1692525718229
 url: "{{ _.BASE_URL }}/account/bridging-status"
 name: Bridging Status
@@ -9,11 +9,7 @@ description: ""
 method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"email": "user1@email.com",
-    	"password": "password"
-    }
+  text: ""
 parameters:
   - id: pair_c60b7728ffb74b019a8a021d280cd42b
     name: ""

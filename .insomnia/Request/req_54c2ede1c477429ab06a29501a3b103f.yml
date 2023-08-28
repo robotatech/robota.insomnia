@@ -1,0 +1,32 @@
+_id: req_54c2ede1c477429ab06a29501a3b103f
+type: Request
+parentId: fld_917bcd3be99b413ea531535f0753ec5f
+modified: 1693215339658
+created: 1693214926909
+url: "{{ _.BASE_URL }}/account/permissions"
+name: Permissions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+    id: pair_f05d653991684d56ab7d09d922a901ca
+  - id: pair_ab4a61a5ff0a4f5eba923d2a0f04fcaa
+    name: Authorization
+    value: Bearer  {{ _.JWT_TOKEN }}
+    description: ""
+authentication:
+  type: bearer
+  token: Bearer
+  prefix: "{{ _.JWT_TOKEN }}"
+  disabled: true
+metaSortKey: -1693214926909
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
