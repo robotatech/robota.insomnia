@@ -1,7 +1,7 @@
 _id: req_dc7e232207744456acfe84a5245bedb0
 type: Request
 parentId: fld_3d8047a9c7cb4f02bd845689fa0971eb
-modified: 1690911813142
+modified: 1693310473627
 created: 1684994643702
 url: "{{ _.BASE_URL }}/account/preference/hotel"
 name: my hotel
@@ -9,25 +9,24 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
-    	"official-name": "My Hotel",
-    	"location": [12.2345345,44.2343453565],
-    	"info": {
-    		"hotel_profile": ""
-    	},
-    	"hotels": [
+    	"selected_hotels": [
     		{
-    			"hotel_name": "My Hotel",
-    			"source": "traveloka",
-    			"url": "https://traveloka.com/my-hotel-traveloka",
-    			"_id": "my-hotel-traveloka-id"
-    		},
-    		{
-    			"hotel_name": "My Hotel of Jakarta",
-    			"source": "tiket",
-    			"url": "https://tiket.com/my-hotel-tiket",
-    			"_id": "my-hotel-tiket-id"
+    			"created_date": "2023-08-29 18:29:39.431533",
+    			"crawled": "2023-08-29 18:29:39.431539",
+    			"name": "Horison Ultima Riss Malioboro Yogyakarta, Gedongtengen, Yogyakarta, Daerah Istimewa Yogyakarta",
+    			"type": "HOTEL",
+    			"accommodation_type": "HOTEL",
+    			"location": {
+    				"address": "Gedongtengen, Yogyakarta, Daerah Istimewa Yogyakarta",
+    				"coordinate": {
+    					"lat": "-7.788017",
+    					"lon": "110.364412"
+    				}
+    			},
+    			"id": "3000010000711",
+    			"source": "traveloka"
     		}
     	]
     }

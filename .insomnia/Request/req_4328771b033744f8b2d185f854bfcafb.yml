@@ -1,17 +1,17 @@
 _id: req_4328771b033744f8b2d185f854bfcafb
 type: Request
 parentId: fld_7a8f36b2a7324df0947e6767b4ab72e7
-modified: 1692871300192
+modified: 1693308788495
 created: 1692869540548
 url: "{{ _.BASE_URL }}/auth/activate-account"
-name: Resent Activate Account
+name: Activate Account Resend Email
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "user2s@email.com"
+    	"email": "vybhqss@telegmail.com"
     }
 parameters: []
 headers:

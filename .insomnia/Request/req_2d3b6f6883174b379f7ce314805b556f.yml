@@ -1,7 +1,7 @@
 _id: req_2d3b6f6883174b379f7ce314805b556f
 type: Request
 parentId: fld_7a8f36b2a7324df0947e6767b4ab72e7
-modified: 1691941441040
+modified: 1693263288743
 created: 1691929155321
 url: "{{ _.BASE_URL }}/auth/forgot-password"
 name: Forgot Password
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "sugengdcahyo@gmail.com"
+    	"email": "gcbdcfv@telegmail.com"
     }
 parameters: []
 headers:

@@ -1,7 +1,7 @@
 _id: req_5b9357ea3e4d41aabf841444dc2976ee
 type: Request
 parentId: fld_7a8f36b2a7324df0947e6767b4ab72e7
-modified: 1693199383434
+modified: 1693264867808
 created: 1681402090023
 url: "{{ _.BASE_URL }}/auth/login"
 name: Login
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "user2@email.com",
+    	"email": "vybhqss@telegmail.com",
     	"password": "password"
     }
 parameters: []
