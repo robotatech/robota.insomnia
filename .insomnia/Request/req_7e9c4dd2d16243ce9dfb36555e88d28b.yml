@@ -1,0 +1,44 @@
+_id: req_7e9c4dd2d16243ce9dfb36555e88d28b
+type: Request
+parentId: fld_3ac3c1f7e1ab42cb98d11458f0a749ec
+modified: 1693506859429
+created: 1693506859429
+url: "{{ _.ANALYST_URL }}/tile/ota-overview"
+name: Impact Score Overview
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_057414800a384fe0ac8076c186f4cfbd
+    name: start_date
+    value: 2022-01-01
+    description: ""
+  - id: pair_176b5d7a30c04032a406ab6039c824d1
+    name: end_date
+    value: 2022-02-01
+    description: ""
+  - id: pair_1e3770acc27f4b8db8f4a68811872ff4
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+    id: pair_1ef31cc6dae24d768311d16345251e40
+  - id: pair_c4592cfd8232490193034cd67c95e9c8
+    name: Authorization
+    value: Bearer {{ _.JWT_TOKEN }}
+    description: ""
+authentication: {}
+metaSortKey: -1693504463963.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

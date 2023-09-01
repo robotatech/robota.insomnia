@@ -1,7 +1,7 @@
 _id: req_dc7e232207744456acfe84a5245bedb0
 type: Request
 parentId: fld_3d8047a9c7cb4f02bd845689fa0971eb
-modified: 1693310473627
+modified: 1693313111248
 created: 1684994643702
 url: "{{ _.BASE_URL }}/account/preference/hotel"
 name: my hotel
@@ -12,6 +12,70 @@ body:
   text: >-
     {
     	"selected_hotels": [
+    		{
+    			"created_date": "2023-08-29 18:29:40.726175",
+    			"crawled": "2023-08-29 18:29:40.726202",
+    			"name": "HOM Premiere Timoho By Horison",
+    			"type": "Hotel",
+    			"accommodation_type": "Hotel",
+    			"location": {
+    				"address": "Jalan Ipda Tut Harsono, Kota Baru, Yogyakarta, Indonesia 55165",
+    				"coordinate": {
+    					"lat": "-7.7985154",
+    					"lon": "110.3927299"
+    				}
+    			},
+    			"id": "17242425",
+    			"source": "agoda"
+    		},
+    		{
+    			"created_date": "2023-08-29 18:29:41.001523",
+    			"crawled": "2023-08-29 18:29:41.001547",
+    			"name": "Lynn Hotel by Horison",
+    			"type": "Hotel",
+    			"accommodation_type": "Hotel",
+    			"location": {
+    				"address": "Jalan Jogokaryan No. 82, Bantul, Yogyakarta, Indonesia 55143",
+    				"coordinate": {
+    					"lat": "-7.824564379775674",
+    					"lon": "110.36636710166931"
+    				}
+    			},
+    			"id": "930782",
+    			"source": "agoda"
+    		},
+    		{
+    			"created_date": "2023-08-29 18:29:41.242842",
+    			"crawled": "2023-08-29 18:29:41.242879",
+    			"name": "Horison Ultima Riss Hotel Malioboro",
+    			"type": "Hotel",
+    			"accommodation_type": "Hotel",
+    			"location": {
+    				"address": "Jalan Gowongan Kidul No 33 - 49, Pusat Kota Yogyakarta, Yogyakarta, Indonesia 55271",
+    				"coordinate": {
+    					"lat": "-7.7875549867247",
+    					"lon": "110.364682674408"
+    				}
+    			},
+    			"id": "544766",
+    			"source": "agoda"
+    		},
+    		{
+    			"created_date": "2023-08-29 18:29:39.431467",
+    			"crawled": "2023-08-29 18:29:39.431491",
+    			"name": "Horison Lynn Yogyakarta, Mantrijeron, Yogyakarta, Daerah Istimewa Yogyakarta",
+    			"type": "HOTEL",
+    			"accommodation_type": "HOTEL",
+    			"location": {
+    				"address": "Mantrijeron, Yogyakarta, Daerah Istimewa Yogyakarta",
+    				"coordinate": {
+    					"lat": "-7.82459",
+    					"lon": "110.366831"
+    				}
+    			},
+    			"id": "3000010003256",
+    			"source": "traveloka"
+    		},
     		{
     			"created_date": "2023-08-29 18:29:39.431533",
     			"crawled": "2023-08-29 18:29:39.431539",
