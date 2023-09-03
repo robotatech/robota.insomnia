@@ -1,9 +1,9 @@
 _id: req_7e9c4dd2d16243ce9dfb36555e88d28b
 type: Request
 parentId: fld_3ac3c1f7e1ab42cb98d11458f0a749ec
-modified: 1693506859429
+modified: 1693784395915
 created: 1693506859429
-url: "{{ _.ANALYST_URL }}/tile/ota-overview"
+url: "{{ _.ANALYST_URL }}/tile/impact-overview"
 name: Impact Score Overview
 description: ""
 method: GET

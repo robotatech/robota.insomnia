@@ -1,7 +1,7 @@
 _id: req_a7c47599a62f415ea9d5039aa21519a0
 type: Request
 parentId: fld_3ac3c1f7e1ab42cb98d11458f0a749ec
-modified: 1693506872785
+modified: 1693658996809
 created: 1693505152918
 url: "{{ _.ANALYST_URL }}/tile/dashboard-summary"
 name: Summary Overview
@@ -26,6 +26,7 @@ parameters:
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_c1da1b0e998645abb18be1665be5e38a
   - name: User-Agent
     value: Insomnia/2023.5.7
     id: pair_1ef31cc6dae24d768311d16345251e40
@@ -33,6 +34,7 @@ headers:
     name: Authorization
     value: Bearer {{ _.JWT_TOKEN }}
     description: ""
+    disabled: false
 authentication: {}
 metaSortKey: -1693505157092
 isPrivate: false

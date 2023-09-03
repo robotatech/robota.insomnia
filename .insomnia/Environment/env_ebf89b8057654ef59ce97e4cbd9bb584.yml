@@ -1,24 +1,20 @@
 _id: env_ebf89b8057654ef59ce97e4cbd9bb584
 type: Environment
 parentId: env_699d5ae69b6650de2015f6dd34c3f0791bcfb0d4
-modified: 1691404042822
+modified: 1693564908494
 created: 1681402184466
 name: production
 data:
-  protocol: https
-  host: api.robota.live
-  port: "80"
-  path: v1.1
+  BASE_URL: https://api.robota.live/v1.1
+  ANALYST_URL: http://api.robota.live/v1.1/analyst
   users:
-    - username: username
-      email: email
+    - username: user2@email.com
+      email: user2@email.com
       password: password
 dataPropertyOrder:
   "&":
-    - protocol
-    - host
-    - port
-    - path
+    - BASE_URL
+    - ANALYST_URL
     - users
   "&~|users~|0":
     - username

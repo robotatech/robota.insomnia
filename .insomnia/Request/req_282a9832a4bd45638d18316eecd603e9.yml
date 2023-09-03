@@ -1,9 +1,9 @@
 _id: req_282a9832a4bd45638d18316eecd603e9
 type: Request
 parentId: fld_3ac3c1f7e1ab42cb98d11458f0a749ec
-modified: 1693506844133
+modified: 1693784060414
 created: 1693506844133
-url: "{{ _.ANALYST_URL }}/tile/ota-overview"
+url: "{{ _.ANALYST_URL }}/tile/sentiment-overview"
 name: Sentiment Overview
 description: ""
 method: GET

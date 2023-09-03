@@ -1,11 +1,11 @@
 _id: env_af8e44014d4e4e73b0d56160b1443fef
 type: Environment
 parentId: env_699d5ae69b6650de2015f6dd34c3f0791bcfb0d4
-modified: 1693505057192
+modified: 1693658921591
 created: 1681402190535
 name: localhost
 data:
-  BASE_URL: http://localhost:1234/v1.1
+  BASE_URL: https://api.robota.live/v1.1
   ANALYST_URL: http://localhost:1235/v1.1/analyst
   users:
     - username: user2@email.com
