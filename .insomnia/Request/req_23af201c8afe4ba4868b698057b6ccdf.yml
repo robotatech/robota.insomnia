@@ -1,0 +1,61 @@
+_id: req_23af201c8afe4ba4868b698057b6ccdf
+type: Request
+parentId: fld_7b078921e6954364a9c19841d9d3a065
+modified: 1694506447445
+created: 1694502593192
+url: "{{ _.ANALYST_URL }}/reviews"
+name: Fetch Reviews
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_057414800a384fe0ac8076c186f4cfbd
+    name: start_date
+    value: 2022-01-01
+    description: ""
+  - id: pair_176b5d7a30c04032a406ab6039c824d1
+    name: end_date
+    value: 2022-02-01
+    description: ""
+  - id: pair_1e3770acc27f4b8db8f4a68811872ff4
+    name: ota
+    value: tiket
+    description: ""
+  - id: pair_2cceb404d92247929677c52b8d5339cf
+    name: sentiment
+    value: positive
+    description: ""
+  - id: pair_790a3fb3ddf54156a4d1e7e54e356c1f
+    name: categories
+    value: room, facility
+    description: ""
+  - id: pair_f5be52f21d52413099b3896aeb7cb1c2
+    name: rating
+    value: "5"
+    description: ""
+  - id: pair_b52b8c7288aa486a8a6474dc2f1f7e62
+    name: response
+    value: "true"
+    description: ""
+  - id: pair_b124baf5c482479abd6637a304afa82b
+    name: page
+    value: "10"
+    description: ""
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+    id: pair_1ef31cc6dae24d768311d16345251e40
+  - id: pair_c4592cfd8232490193034cd67c95e9c8
+    name: Authorization
+    value: Bearer {{ _.JWT_TOKEN }}
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1694502605150
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

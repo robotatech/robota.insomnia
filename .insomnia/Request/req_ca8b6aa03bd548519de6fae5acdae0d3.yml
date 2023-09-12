@@ -1,0 +1,28 @@
+_id: req_ca8b6aa03bd548519de6fae5acdae0d3
+type: Request
+parentId: fld_7a8f36b2a7324df0947e6767b4ab72e7
+modified: 1693658443798
+created: 1693658041534
+url: "{{ _.BASE_URL }}/auth/verify"
+name: Token Verification
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+    id: pair_dbd15932e11b4f1f908d6e8e475285df
+  - id: pair_eafd685a01b94800bca02f55444e0b14
+    name: Authorization
+    value: Bearer {{ _.JWT_TOKEN }}
+    description: ""
+authentication: {}
+metaSortKey: -1693658041534
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

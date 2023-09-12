@@ -1,0 +1,41 @@
+_id: req_e524b04a86b44d1383d54467f93497d8
+type: Request
+parentId: fld_92f06e6cbce44ba19286bf16c64f83a2
+modified: 1694486643468
+created: 1694486603838
+url: "{{ _.ANALYST_URL }}/chart/linechart-performance"
+name: Linechart Performance Aggregations
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_057414800a384fe0ac8076c186f4cfbd
+    name: start_date
+    value: 2022-01-01
+    description: ""
+  - id: pair_176b5d7a30c04032a406ab6039c824d1
+    name: end_date
+    value: 2022-02-01
+    description: ""
+  - id: pair_1e3770acc27f4b8db8f4a68811872ff4
+    name: ota
+    value: tiket
+    description: ""
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+    id: pair_1ef31cc6dae24d768311d16345251e40
+  - id: pair_c4592cfd8232490193034cd67c95e9c8
+    name: Authorization
+    value: Bearer {{ _.JWT_TOKEN }}
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1693494134053.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
