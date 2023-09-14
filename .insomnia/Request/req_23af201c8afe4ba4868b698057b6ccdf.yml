@@ -1,7 +1,7 @@
 _id: req_23af201c8afe4ba4868b698057b6ccdf
 type: Request
 parentId: fld_7b078921e6954364a9c19841d9d3a065
-modified: 1694506447445
+modified: 1694731432114
 created: 1694502593192
 url: "{{ _.ANALYST_URL }}/reviews"
 name: Fetch Reviews
@@ -29,6 +29,7 @@ parameters:
     name: categories
     value: room, facility
     description: ""
+    disabled: false
   - id: pair_f5be52f21d52413099b3896aeb7cb1c2
     name: rating
     value: "5"
@@ -39,6 +40,10 @@ parameters:
     description: ""
   - id: pair_b124baf5c482479abd6637a304afa82b
     name: page
+    value: "1"
+    description: ""
+  - id: pair_7784d8a5fdd44b18bd31687dcf4a407c
+    name: limit
     value: "10"
     description: ""
 headers:
