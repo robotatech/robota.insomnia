@@ -1,25 +1,27 @@
-_id: req_5b9357ea3e4d41aabf841444dc2976ee
+_id: req_989b79a01fd7417f8f0ca92d53eb9e23
 type: Request
-parentId: fld_7a8f36b2a7324df0947e6767b4ab72e7
-modified: 1695424728239
-created: 1681402090023
-url: "{{ _.BASE_URL }}/auth/login"
-name: Login
+parentId: fld_ffd6ba4a9c714b409dc2782493d8d0db
+modified: 1695366354953
+created: 1695355500792
+url: https://crawler.robota.datains.id/v1/services/stream
+name: Crawler Refresh
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "vybhqss@telegmail.com",
-    	"password": "password"
+    	"from_": "2023-09-24",
+    	"to_": "2023-09-25",
+    	"units": ["22506148", "977717"],
+    	"sender": "superadmin"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1681402090024
+metaSortKey: -1695355500792
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

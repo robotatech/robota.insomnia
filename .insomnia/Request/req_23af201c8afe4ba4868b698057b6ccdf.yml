@@ -1,40 +1,46 @@
 _id: req_23af201c8afe4ba4868b698057b6ccdf
 type: Request
 parentId: fld_7b078921e6954364a9c19841d9d3a065
-modified: 1695173869877
+modified: 1695351136487
 created: 1694502593192
 url: "{{ _.ANALYST_URL }}/reviews"
 name: Fetch Reviews
 description: ""
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"next": "url next",
+    	"prev": "url prev"
+    }
 parameters:
   - id: pair_057414800a384fe0ac8076c186f4cfbd
     name: start_date
-    value: 2023-09-01
+    value: 2023-02-22
     description: ""
   - id: pair_176b5d7a30c04032a406ab6039c824d1
     name: end_date
-    value: 2023-10-01
+    value: 2023-09-22
     description: ""
   - id: pair_1e3770acc27f4b8db8f4a68811872ff4
     name: ota
-    value: tiket
+    value: traveloka
     description: ""
-    disabled: true
+    disabled: false
   - id: pair_2cceb404d92247929677c52b8d5339cf
     name: sentiment
     value: positive
     description: ""
     disabled: true
   - id: pair_790a3fb3ddf54156a4d1e7e54e356c1f
-    name: category
-    value: room
+    name: categories
+    value: meal
     description: ""
     disabled: false
   - id: pair_f5be52f21d52413099b3896aeb7cb1c2
     name: rating
-    value: "5"
+    value: "9.4"
     description: ""
     disabled: true
   - id: pair_b52b8c7288aa486a8a6474dc2f1f7e62
@@ -46,11 +52,14 @@ parameters:
     name: page
     value: "1"
     description: ""
+    disabled: false
   - id: pair_7784d8a5fdd44b18bd31687dcf4a407c
     name: limit
     value: "10"
     description: ""
 headers:
+  - name: Content-Type
+    value: application/json
   - name: User-Agent
     value: Insomnia/2023.5.7
     id: pair_1ef31cc6dae24d768311d16345251e40

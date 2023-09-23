@@ -1,9 +1,9 @@
 _id: req_9c7274bc76e14470a80d37efb4815185
 type: Request
 parentId: fld_2886a97c21454aa4bfb983c482a95eeb
-modified: 1695283047920
+modified: 1695427336511
 created: 1694473028002
-url: "{{ _.ANALYST_URL }}/search"
+url: api.robota.live/v1.1/analyst/search
 name: Generic Elastic
 description: ""
 method: POST
@@ -26,6 +26,7 @@ headers:
 authentication:
   type: bearer
   token: Bearer {{ _.JWT_TOKEN }}
+  disabled: true
 metaSortKey: -1693483903161.75
 isPrivate: false
 settingStoreCookies: true

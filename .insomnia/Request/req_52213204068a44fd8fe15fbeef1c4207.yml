@@ -1,24 +1,23 @@
 _id: req_52213204068a44fd8fe15fbeef1c4207
 type: Request
 parentId: fld_ffd6ba4a9c714b409dc2782493d8d0db
-modified: 1695285133478
+modified: 1695429751831
 created: 1695284947992
 url: "{{ _.ANALYST_URL }}/rates/shopper/2022-01-01"
 name: Daily List Price
 description: ""
 method: GET
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	"start_date": "2023-09-01",
-    	"end_date": "2023-09-02"
-    }
-parameters: []
+body: {}
+parameters:
+  - id: pair_8aee1e73c5fe44d3baa76e9ce3518ecd
+    name: start_date
+    value: 2023-09-29
+    description: ""
+  - id: pair_88bed42458034d3b9997ac9ebe812fdd
+    name: end_date
+    value: 2023-09-30
+    description: ""
 headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_e0c7f3ef987747f9af0ed0d36dd525c2
   - name: User-Agent
     value: Insomnia/2023.5.7
     id: pair_1ef31cc6dae24d768311d16345251e40
@@ -26,7 +25,7 @@ headers:
     name: Authorization
     value: Bearer {{ _.JWT_TOKEN }}
     description: ""
-    disabled: false
+    disabled: true
 authentication: {}
 metaSortKey: -1695119761706
 isPrivate: false
