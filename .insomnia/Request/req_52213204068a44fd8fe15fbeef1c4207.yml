@@ -1,9 +1,9 @@
 _id: req_52213204068a44fd8fe15fbeef1c4207
 type: Request
 parentId: fld_ffd6ba4a9c714b409dc2782493d8d0db
-modified: 1695429751831
+modified: 1695711516165
 created: 1695284947992
-url: "{{ _.ANALYST_URL }}/rates/shopper/2022-01-01"
+url: "{{ _.ANALYST_URL }}/rates/shopper/2023-10-05"
 name: Daily List Price
 description: ""
 method: GET
@@ -13,10 +13,12 @@ parameters:
     name: start_date
     value: 2023-09-29
     description: ""
+    disabled: true
   - id: pair_88bed42458034d3b9997ac9ebe812fdd
     name: end_date
     value: 2023-09-30
     description: ""
+    disabled: true
 headers:
   - name: User-Agent
     value: Insomnia/2023.5.7
@@ -25,7 +27,7 @@ headers:
     name: Authorization
     value: Bearer {{ _.JWT_TOKEN }}
     description: ""
-    disabled: true
+    disabled: false
 authentication: {}
 metaSortKey: -1695119761706
 isPrivate: false

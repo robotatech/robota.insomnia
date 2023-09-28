@@ -1,7 +1,7 @@
 _id: req_23af201c8afe4ba4868b698057b6ccdf
 type: Request
 parentId: fld_7b078921e6954364a9c19841d9d3a065
-modified: 1695351136487
+modified: 1695604302747
 created: 1694502593192
 url: "{{ _.ANALYST_URL }}/reviews"
 name: Fetch Reviews
@@ -9,15 +9,11 @@ description: ""
 method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"next": "url next",
-    	"prev": "url prev"
-    }
+  text: ""
 parameters:
   - id: pair_057414800a384fe0ac8076c186f4cfbd
     name: start_date
-    value: 2023-02-22
+    value: 2023-08-22
     description: ""
   - id: pair_176b5d7a30c04032a406ab6039c824d1
     name: end_date
@@ -35,7 +31,7 @@ parameters:
     disabled: true
   - id: pair_790a3fb3ddf54156a4d1e7e54e356c1f
     name: categories
-    value: meal
+    value: room
     description: ""
     disabled: false
   - id: pair_f5be52f21d52413099b3896aeb7cb1c2
