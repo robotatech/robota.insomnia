@@ -1,15 +1,13 @@
 _id: req_282a9832a4bd45638d18316eecd603e9
 type: Request
 parentId: fld_3ac3c1f7e1ab42cb98d11458f0a749ec
-modified: 1693784060414
+modified: 1695945378987
 created: 1693506844133
 url: "{{ _.ANALYST_URL }}/tile/sentiment-overview"
 name: Sentiment Overview
 description: ""
 method: GET
-body:
-  mimeType: application/json
-  text: ""
+body: {}
 parameters:
   - id: pair_057414800a384fe0ac8076c186f4cfbd
     name: start_date
@@ -24,8 +22,6 @@ parameters:
     value: ""
     description: ""
 headers:
-  - name: Content-Type
-    value: application/json
   - name: User-Agent
     value: Insomnia/2023.5.7
     id: pair_1ef31cc6dae24d768311d16345251e40

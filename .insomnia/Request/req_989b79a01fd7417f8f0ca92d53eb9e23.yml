@@ -1,7 +1,7 @@
 _id: req_989b79a01fd7417f8f0ca92d53eb9e23
 type: Request
 parentId: fld_ffd6ba4a9c714b409dc2782493d8d0db
-modified: 1695366354953
+modified: 1695891844147
 created: 1695355500792
 url: https://crawler.robota.datains.id/v1/services/stream
 name: Crawler Refresh
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"from_": "2023-09-24",
-    	"to_": "2023-09-25",
+    	"from_": "2023-09-28",
+    	"to_": "2023-09-29",
     	"units": ["22506148", "977717"],
     	"sender": "superadmin"
     }

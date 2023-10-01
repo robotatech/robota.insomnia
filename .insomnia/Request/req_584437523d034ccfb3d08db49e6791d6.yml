@@ -1,25 +1,25 @@
-_id: req_e524b04a86b44d1383d54467f93497d8
+_id: req_584437523d034ccfb3d08db49e6791d6
 type: Request
 parentId: fld_92f06e6cbce44ba19286bf16c64f83a2
-modified: 1695895371365
-created: 1694486603838
-url: "{{ _.ANALYST_URL }}/chart/linechart-performance"
-name: Linechart Performance Aggregations
+modified: 1695976485224
+created: 1695890846636
+url: "{{ _.ANALYST_URL }}/chart/linechart-popularity"
+name: Linechart Popularity Aggregations
 description: ""
 method: GET
 body: {}
 parameters:
   - id: pair_057414800a384fe0ac8076c186f4cfbd
     name: start_date
-    value: 2022-01-01
+    value: 2023-01-01
     description: ""
   - id: pair_176b5d7a30c04032a406ab6039c824d1
     name: end_date
-    value: 2022-02-01
+    value: 2023-10-01
     description: ""
-  - id: pair_1e3770acc27f4b8db8f4a68811872ff4
+  - id: pair_f8a55e9a8236471098b7deb1f2ac4885
     name: source
-    value: pegipegi
+    value: tiket
     description: ""
     disabled: false
 headers:
@@ -32,7 +32,7 @@ headers:
     description: ""
     disabled: false
 authentication: {}
-metaSortKey: -1693494134053.375
+metaSortKey: -1693354530481.1875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

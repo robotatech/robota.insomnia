@@ -1,27 +1,32 @@
-_id: req_e524b04a86b44d1383d54467f93497d8
+_id: req_4f0f7e52590842af99ae4015d42c5083
 type: Request
-parentId: fld_92f06e6cbce44ba19286bf16c64f83a2
-modified: 1695895371365
-created: 1694486603838
-url: "{{ _.ANALYST_URL }}/chart/linechart-performance"
-name: Linechart Performance Aggregations
+parentId: fld_ffd6ba4a9c714b409dc2782493d8d0db
+modified: 1696148231314
+created: 1696146554378
+url: "{{ _.ANALYST_URL }}/rates/trend"
+name: Rate Trend Room Price
 description: ""
 method: GET
 body: {}
 parameters:
-  - id: pair_057414800a384fe0ac8076c186f4cfbd
+  - id: pair_8aee1e73c5fe44d3baa76e9ce3518ecd
     name: start_date
-    value: 2022-01-01
-    description: ""
-  - id: pair_176b5d7a30c04032a406ab6039c824d1
-    name: end_date
-    value: 2022-02-01
-    description: ""
-  - id: pair_1e3770acc27f4b8db8f4a68811872ff4
-    name: source
-    value: pegipegi
+    value: 2023-08-29
     description: ""
     disabled: false
+  - id: pair_88bed42458034d3b9997ac9ebe812fdd
+    name: end_date
+    value: 2023-09-30
+    description: ""
+    disabled: false
+  - id: pair_fe288a6138be4a4fb7b9b852575931a7
+    name: source
+    value: traveloka
+    description: ""
+  - id: pair_678c96ef37944fe98370ced3ebb5656c
+    name: interval
+    value: week
+    description: ""
 headers:
   - name: User-Agent
     value: Insomnia/2023.5.7
@@ -32,7 +37,7 @@ headers:
     description: ""
     disabled: false
 authentication: {}
-metaSortKey: -1693494134053.375
+metaSortKey: -1694811183428
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

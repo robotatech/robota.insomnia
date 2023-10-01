@@ -1,7 +1,7 @@
 _id: req_4f61b2264e11492c9f8762b42151a7ab
 type: Request
 parentId: fld_ffd6ba4a9c714b409dc2782493d8d0db
-modified: 1695697267746
+modified: 1695891862760
 created: 1695283675673
 url: "{{ _.ANALYST_URL }}/rates/shopper/refresh-rate"
 name: Refresh Rateshopper
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"start_date": "2023-10-05",
-    	"end_date": "2023-10-06"
+    	"start_date": "2023-09-28",
+    	"end_date": "2023-09-29"
     }
 parameters: []
 headers:

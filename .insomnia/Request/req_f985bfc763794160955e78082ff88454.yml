@@ -1,10 +1,10 @@
-_id: req_e524b04a86b44d1383d54467f93497d8
+_id: req_f985bfc763794160955e78082ff88454
 type: Request
 parentId: fld_92f06e6cbce44ba19286bf16c64f83a2
-modified: 1695895371365
-created: 1694486603838
-url: "{{ _.ANALYST_URL }}/chart/linechart-performance"
-name: Linechart Performance Aggregations
+modified: 1695889659592
+created: 1695888163819
+url: "{{ _.ANALYST_URL }}/chart/linechart-rateshopper"
+name: Linechart Rate Shopper
 description: ""
 method: GET
 body: {}
@@ -15,13 +15,13 @@ parameters:
     description: ""
   - id: pair_176b5d7a30c04032a406ab6039c824d1
     name: end_date
-    value: 2022-02-01
+    value: 2023-10-01
     description: ""
   - id: pair_1e3770acc27f4b8db8f4a68811872ff4
     name: source
-    value: pegipegi
+    value: traveloka
     description: ""
-    disabled: false
+    disabled: true
 headers:
   - name: User-Agent
     value: Insomnia/2023.5.7
@@ -30,9 +30,8 @@ headers:
     name: Authorization
     value: Bearer {{ _.JWT_TOKEN }}
     description: ""
-    disabled: false
 authentication: {}
-metaSortKey: -1693494134053.375
+metaSortKey: -1693499249499.1875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
